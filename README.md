@@ -48,7 +48,7 @@ source env/bin/activate
 pip install -r requirements.txt
 
 #### Dependencies
-# Here is a list of dependencies that need to be installed:
+#### Here is a list of dependencies that need to be installed:
 asgiref==3.7.2
 beautifulsoup4==4.12.2
 certifi==2023.11.17
@@ -86,7 +86,7 @@ DB_USER=postgres
 DB_PASSWORD=Your password
 DB_HOST=localhost
 
-# Email configuration
+#### Email configuration
 EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
 EMAIL_HOST_USER=' '
