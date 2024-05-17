@@ -41,10 +41,10 @@ To get a local copy up and running, follow these simple steps:
   # On Windows:
   env\Scripts\activate
 
-# On Mac OS / Linux:
+### On Mac OS / Linux:
 source env/bin/activate
 
-# 4. Install the dependencies
+### 4. Install the dependencies
 pip install -r requirements.txt
 
 #### Dependencies
@@ -76,11 +76,11 @@ tzlocal==5.2
 urllib3==2.1.0
 
 #### Configuration
-# Create a .env file in the foodOnline_main folder with the following content:
+#### Create a .env file in the foodOnline_main folder with the following content:
   SECRET_KEY=
   DEBUG=True
 
-# Database configuration
+#### Database configuration
 DB_NAME=DB
 DB_USER=postgres
 DB_PASSWORD=Your password
@@ -92,7 +92,7 @@ EMAIL_PORT=587
 EMAIL_HOST_USER=' '
 EMAIL_HOST_PASSWORD=' '
 
-# API Keys
+#### API Keys
 GOOGLE_API_KEY=
 PAYPAL_CLIENT_ID=
 
@@ -105,7 +105,7 @@ python manage.py runserver
 #### Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-## Fork the Project
+### Fork the Project
  Create your Feature Branch (git checkout -b feature/AmazingFeature)
  Commit your Changes (git commit -m 'Add some AmazingFeature')
  Push to the Branch (git push origin feature/AmazingFeature)
