@@ -48,7 +48,7 @@ source env/bin/activate
 pip install -r requirements.txt
 
 #### Dependencies
-- **Here is a list of dependencies that need to be installed**:
+# Here is a list of dependencies that need to be installed:
 asgiref==3.7.2
 beautifulsoup4==4.12.2
 certifi==2023.11.17
@@ -76,9 +76,9 @@ tzlocal==5.2
 urllib3==2.1.0
 
 #### Configuration
-- **Create a .env file in the foodOnline_main folder with the following content**:
+# Create a .env file in the foodOnline_main folder with the following content:
   SECRET_KEY=
-DEBUG=True
+  DEBUG=True
 
 # Database configuration
 DB_NAME=DB
@@ -103,13 +103,13 @@ python manage.py migrate
 python manage.py runserver
 
 #### Contributing
-** Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.**
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 ## Fork the Project
-- Create your Feature Branch (git checkout -b feature/AmazingFeature)
-- Commit your Changes (git commit -m 'Add some AmazingFeature')
-- Push to the Branch (git push origin feature/AmazingFeature)
-- Open a Pull Request
+ Create your Feature Branch (git checkout -b feature/AmazingFeature)
+ Commit your Changes (git commit -m 'Add some AmazingFeature')
+ Push to the Branch (git push origin feature/AmazingFeature)
+ Open a Pull Request
 
 
 
