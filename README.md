@@ -33,8 +33,6 @@ To get a local copy up and running, follow these simple steps:
    git clone https://github.com/mihaidevexplorer/e-commerce_food_restaurant.git
    cd e-commerce_food_restaurant
 
-  ## Instructions for Setting Up the Environment
-
 ### 2. Install the Environment Control
 ```sh
 pip install virtualenv
