@@ -17,7 +17,7 @@ This project is an e-commerce platform developed using Django and Python, design
 - **Profile Customization**: Customizes profile form configuration and validates user data.
 - **Mobile Compatibility**: Optimizes the website for mobile compatibility and responsiveness using Bootstrap for the frontend.
 
-## Getting Started
+### Getting Started
 
 To get a local copy up and running, follow these simple steps:
 
@@ -38,7 +38,7 @@ To get a local copy up and running, follow these simple steps:
   virtualenv env
 
   ### 3. Activate the environment
-  # On Windows:
+  ### On Windows:
   env\Scripts\activate
 
 ### On Mac OS / Linux:
