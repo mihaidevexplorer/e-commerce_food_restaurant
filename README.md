@@ -39,9 +39,9 @@ pip install virtualenv
 virtualenv env
 
 
-  ### 3. Activate the environment
-  ### On Windows:
-  env\Scripts\activate
+### 3. Activate the environment
+### On Windows:
+env\Scripts\activate
 
 ### On Mac OS / Linux:
 source env/bin/activate
